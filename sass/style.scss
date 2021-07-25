@@ -7,7 +7,15 @@
   color: white;
   text-align: center;
   width: 100%;
-  font-family: 'STIX Two Math', serif;
+  padding: 20px;
+}
+.title container{
+  display: inline;
+  text-align: left;
+}
+.title ul{
+  float: right;
+  padding-top: -25px;
 }
 .box{
   float: left;
@@ -29,6 +37,13 @@
 .page-title{
   font-style: italic;
   padding: 20px;
+  text-align: center;
+}
+.title p{
+  float: left;
+}
+.h2 page-title {
+  text-align: center;
 }
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
@@ -49,13 +64,19 @@
 .footer{
   display: inline;
 }
-
 .footer ul li {
   list-style-type: none;
   display: inline;
+}
+.fa, .fab, .fal, .far, .fas {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  background-color: red;
+  color: black;
+  border-radius: 50%;
   font-size: 30px;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
-  color: black;
 }
